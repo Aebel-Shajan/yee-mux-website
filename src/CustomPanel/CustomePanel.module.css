@@ -1,0 +1,7 @@
+.panel {
+  background-color: var(--color-2);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

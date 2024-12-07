@@ -8,6 +8,7 @@
 
   --color-1: #393939;
   --color-2: #222222;
+  background-color: var(--color-1);
 }
 
 * {
