@@ -4,13 +4,16 @@ import Hero from "./Hero/Hero";
 import styles from "./LandingPage.module.css"
 
 const LandingPage = () => {
-  return ( 
-    <div className={styles.landingPage}>
-      <Hero />
-      <Features />
-      <FAQ />
+  return (
+    <div className={styles.landingPageContainer}>
+
+      <div className={styles.landingPage}>
+        <Hero />
+        <Features />
+        <FAQ />
+      </div>
     </div>
-   );
+  );
 }
- 
+
 export default LandingPage;
