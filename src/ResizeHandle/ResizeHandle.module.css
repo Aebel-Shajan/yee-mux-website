@@ -1,0 +1,12 @@
+.resizeHandle {
+  min-width: 0.5rem;
+  min-height: 0.5rem;
+  background-color: var(--color-1);
+  transition: background-color 100ms linear;
+  border-radius: 999px;
+}
+
+.resizeHandle[data-resize-handle-state="drag"]
+{
+  background-color: rgb(160, 253, 255);
+}
