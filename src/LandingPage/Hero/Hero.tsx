@@ -24,7 +24,7 @@ const Hero = () => {
               </div>
             </CustomPanel>
             <ResizeHandle />
-            <CustomPanel defaultSize={30}>
+            <CustomPanel defaultSize={20}>
               <a 
               href="https://chromewebstore.google.com/detail/yee-mux/fjieejlgkgfmcoelccgobbpcngpnaoph"
               target="_blank">
