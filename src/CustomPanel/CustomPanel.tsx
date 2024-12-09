@@ -1,7 +1,7 @@
-import { Panel } from "react-resizable-panels";
+import { Panel, PanelProps } from "react-resizable-panels";
 import styles from "./CustomePanel.module.css";
 
-interface CustomPanelProps {
+interface CustomPanelProps extends PanelProps {
   children: React.ReactNode
 }
 

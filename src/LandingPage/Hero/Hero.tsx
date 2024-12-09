@@ -5,20 +5,31 @@ import ResizeHandle from "../../ResizeHandle/ResizeHandle";
 
 const Hero = () => {
   return (
-    <div 
-    className={styles.hero}
-    id="home"
+    <div
+      className={styles.hero}
+      id="home"
     >
       <PanelGroup direction="horizontal">
-        <Panel>
+        <Panel defaultSize={40}>
 
           <PanelGroup direction="vertical">
             <CustomPanel>
-              Mutlitask from the sidepanel
+              <div className={styles.heroText}>
+                <h3>
+                  Multitask directly from the sidepanel
+                </h3>
+                <p>
+                  Enhance your productivity by browsing multiple websites without switching tabs. 
+                </p>
+              </div>
             </CustomPanel>
             <ResizeHandle />
-            <CustomPanel>
-              Download the extension now
+            <CustomPanel defaultSize={30}>
+              <a 
+              href="https://chromewebstore.google.com/detail/yee-mux/fjieejlgkgfmcoelccgobbpcngpnaoph"
+              target="_blank">
+                Download the extension now
+              </a>
             </CustomPanel>
           </PanelGroup>
         </Panel>
