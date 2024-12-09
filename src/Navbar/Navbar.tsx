@@ -17,12 +17,19 @@ const Navbar = () => {
           <img src={logo} />
         </Panel>
         <ResizeHandle />
-        <Panel className={[styles.panel, styles.title].join(' ')}>
-          Yee mux
+        <Panel className={[styles.title].join(' ')}>
+          <a
+          href="https://chromewebstore.google.com/detail/yee-mux/fjieejlgkgfmcoelccgobbpcngpnaoph"
+          target="_blank"
+          >
+            Yee mux
+          </a>
         </Panel>
         <ResizeHandle />
         <Panel
-        defaultSize={20}>
+        defaultSize={20}
+        className={styles.navLinks}
+        >
           <PanelGroup direction="horizontal">
             <Panel className={styles.panel}>
               <a href="#home">
