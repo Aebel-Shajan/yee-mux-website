@@ -5,7 +5,10 @@ import ResizeHandle from "../../ResizeHandle/ResizeHandle";
 
 const Hero = () => {
   return (
-    <div className={styles.hero}>
+    <div 
+    className={styles.hero}
+    id="home"
+    >
       <PanelGroup direction="horizontal">
         <Panel>
 
@@ -23,7 +26,7 @@ const Hero = () => {
 
         <ResizeHandle />
         <CustomPanel>
-          Video goes here
+          <img src="https://i.imgur.com/e0Zingp.gif" />
         </CustomPanel>
       </PanelGroup>
     </div >
